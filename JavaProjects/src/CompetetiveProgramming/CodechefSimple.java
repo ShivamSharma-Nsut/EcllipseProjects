@@ -1,0 +1,31 @@
+package CompetetiveProgramming;
+
+import java.util.*;
+import java.io.*;
+
+public class CodechefSimple {
+
+	public static void main(String[] args) {
+		try{
+	      	Scanner sc = new Scanner(System.in);
+	  		
+	  		int t = sc.nextInt();
+	  		while(t-- > 0) {
+	  			int n = sc.nextInt();
+	  			int arr[] = new int[n];
+	  			for(int i=0; i<n; i++) {
+	  				arr[i] = sc.nextInt();
+	  			}
+	  			
+	  			maxToken(n, arr);
+	  		}
+		}catch(Exception e){
+				return;
+			}
+	}
+	
+	public static void maxToken(int n, int arr[]) {
+		
+	}
+
+}
